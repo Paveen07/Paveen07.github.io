@@ -1,0 +1,73 @@
+/*Goodle fonts*/
+@import url('https://fonts.googleapis.com/css2?family=roboto&dispaly=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Roboto',sans-serif;
+}
+body{
+    width: 100%;
+    background:#000;
+    height: 100vh;
+    cursor:url(cursor.png),auto;
+}
+nav{
+    display:flex;
+    justify-content:center;
+}
+ul{
+    display:inline;
+    list-style:none;
+}
+ul li{
+    display:inline-block;
+    padding:30px;
+    cursor:pointer;
+    font-size:20px;
+    color: #fff;
+}
+.content{
+    position: absolute;
+    top:27vh;
+    left:10%;
+    width:33%;
+}
+.content h1{
+    font-weight: 700;
+    font-size:60px;
+}
+hr{
+    margin-top:30px;
+    width: 20%;
+    height:6px;
+    background:#000;
+}
+.content p{
+    margin-top:30px;
+    font-size:20px;
+}
+button{
+    border-radius: 7px;
+    margin-top:20px;
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+    outline:none;
+    letter-spacing: .04em;
+    font-size: 20px;
+    padding: 15px 20px;
+}
+button:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+img{
+    
+    animation:animate 1s ease-in-out;
+}
+body{
+    /* background-image:url("Background.JPEG.JPEG"); */
+    background-attachment:fixed;
+    background-size: cover;
+}
